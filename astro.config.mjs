@@ -1,6 +1,11 @@
 import { defineConfig } from 'astro/config';
 
+import react from '@astrojs/react';
+
 // https://astro.build/config
 export default defineConfig({
-  integrations: [],
+  optimizeDeps: {
+    exclude: ['@ffmpeg/ffmpeg', '@ffmpeg/util'],
+  },
+  integrations: [react()],
 });

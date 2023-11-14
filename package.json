@@ -14,10 +14,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@astrojs/react": "^3.0.4",
+    "@ffmpeg/core": "^0.12.4",
     "@ffmpeg/ffmpeg": "^0.12.7",
     "@ffmpeg/util": "^0.12.1",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
     "astro": "^3.5.2",
     "gsap": "^3.12.2",
-    "modern-gif": "^1.1.10"
+    "modern-gif": "^1.1.10",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
